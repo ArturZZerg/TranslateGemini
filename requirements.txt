@@ -1,0 +1,9 @@
+ beautifulsoup4==4.13.4
+ ebooklib>=0.19
+ google-generativeai==0.8.5
+ imghdr-lts==1.0.0
+ lxml>=5.4.0
+ pillow>=11.2.1
+ pyqt6>=6.9.1
+ pysocks==1.7.1
+ python-docx>=1.2.0
