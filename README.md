@@ -24,6 +24,34 @@ Install them with:
 pip install -r requirements.txt
 ```
 
+---
+
+## 📡 API Key Setup (Google Gemini)
+
+In order to use the Gemini translation feature, you must create an API key:
+
+### 🔑 How to get your Gemini API key
+
+1. Visit [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+2. Log in with your Google account (if not already)
+3. Click **"Create API Key"**
+4. Copy the generated key
+
+### 📥 How to use it
+
+1. Launch the app using:
+
+```bash
+python transgemini/main.py
+```
+
+2. In the GUI, you will be prompted to paste your API key (or you can enter it manually in settings)
+3. The key will be saved in `translator_settings.ini` locally for future use
+
+> 💡 Your API key should be kept private. Avoid sharing it in screenshots, code, or public repositories.
+
+---
+
 ## 📦 Project Structure
 
 ```
@@ -44,6 +72,8 @@ python transgemini/main.py
 ```
 
 The app will launch a PyQt6 GUI.
+
+---
 
 ## 🤝 How to Contribute
 
@@ -111,13 +141,19 @@ git push origin feature/my-feature-name
 
 We'll review and merge it!
 
+---
+
 ## 📝 Prompt Customization
 
 In the GUI, you can customize the prompt used for Gemini translation. This allows you to fine-tune translation style or add contextual instructions (e.g., "translate to Russian in literary style").
 
+---
+
 ## 🛡 License
 
 This project is open-source. Licensing info TBD by the original author.
+
+---
 
 ## ❤️ Acknowledgements
 
@@ -129,4 +165,4 @@ This project is open-source. Licensing info TBD by the original author.
 
 ---
 
-
+_This README was written with love and markdown._
